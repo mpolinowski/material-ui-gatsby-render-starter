@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+.cache/
+package-lock.json
+
+# Build directory
+public/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+.thumb
+$RECYCLE.BIN/
+desktop.ini
