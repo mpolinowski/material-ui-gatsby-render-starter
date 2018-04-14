@@ -7,6 +7,7 @@ Download the example [or clone the repo](https://github.com/mpolinowski/material
 Install it and run:
 
 ```bash
+npm install gatsby-cli
 npm install
 npm run develop
 ```
