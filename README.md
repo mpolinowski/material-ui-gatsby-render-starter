@@ -1,13 +1,8 @@
-# Gatsby example
+# Gatsby Material UI Starter
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
-
-```bash
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/v1-beta | tar -xz --strip=2  material-ui-1-beta/examples/gatsby
-cd gatsby
-```
+Download the example [or clone the repo](https://github.com/mpolinowski/material-ui-gatsby-render-starter)
 
 Install it and run:
 
@@ -16,6 +11,20 @@ npm install
 npm run develop
 ```
 
+
+You can access the hot reloading DEV environment on _http://localhost:8000_. To build your static site run:
+
+```bash
+npm run build
+gatsby serve
+```
+
+You can access the build page on  _http://localhost:9000_.
+
+
+![Gatsby Material UI Starter](materialui.png)
+
 ## The idea behind the example
 
+[Material UI](https://material-ui-next.com/) are React components that implement Google's Material Design.
 [Gatsby](https://github.com/gatsbyjs/gatsby) is a static site generator for React.
