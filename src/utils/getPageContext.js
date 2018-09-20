@@ -1,9 +1,9 @@
 /* eslint-disable no-underscore-dangle */
 
 import { SheetsRegistry } from 'jss';
-import { createMuiTheme, createGenerateClassName } from 'material-ui/styles';
-import orange from 'material-ui/colors/orange';
-import indigo from 'material-ui/colors/indigo';
+import { createMuiTheme, createGenerateClassName } from '@material-ui/core/styles';
+import orange from '@material-ui/core/colors/orange';
+import indigo from '@material-ui/core/colors/indigo';
 
 // A theme with custom primary and secondary color.
 // It's optional.

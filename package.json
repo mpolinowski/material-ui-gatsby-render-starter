@@ -1,21 +1,37 @@
 {
-  "name": "gatsby",
+  "name": "gatsby-material-ui-starter",
   "version": "1.0.0",
-  "private": true,
+  "description": "A starter package for using Material UI @next with Gatsby.js",
+  "main": "gatsby-config.js",
   "dependencies": {
-    "@material-ui/icons": "1.0.0-beta.42",
-    "gatsby": "latest",
-    "gatsby-plugin-offline": "^1.0.16",
+    "@material-ui/core": "^1.2.0",
+    "@material-ui/icons": "^1.1.0",
+    "gatsby": "^1.9.270",
+    "gatsby-plugin-offline": "^1.0.18",
     "gatsby-plugin-react-next": "^1.0.11",
-    "jss": "latest",
-    "material-ui": "next",
+    "jss": "^9.8.2",
     "prop-types": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-jss": "latest"
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-jss": "^8.5.0"
   },
+  "devDependencies": {},
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpolinowski/material-ui-gatsby-render-starter.git"
+  },
+  "keywords": [
+    "gatsby",
+    "material-ui"
+  ],
+  "author": "Mike Polinowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpolinowski/material-ui-gatsby-render-starter/issues"
+  },
+  "homepage": "https://github.com/mpolinowski/material-ui-gatsby-render-starter#readme"
 }
