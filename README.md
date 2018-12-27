@@ -22,6 +22,8 @@ gatsby serve
 
 You can access the build page on  _http://localhost:9000_.
 
+__Attention__: _gatsby serve_ seems to be broken in Gatsby v2. You can copy the content from the __./public__ folder into your webservers public directory to be served. Alternatively, you can use [httpster](https://simbco.github.io/httpster/) to test serve your build.
+
 
 ![Gatsby Material UI Starter](materialui.png)
 
